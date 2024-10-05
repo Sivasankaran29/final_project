@@ -121,7 +121,7 @@ def main():
     # Load the data
     df = pd.read_csv('analyzed_df.csv')
 
-    st.title("Advanced Mobile Recommendation System")
+    st.title("Mobile Recommendation System")
     st.write("Enter your mobile preferences below:")
 
     user_prompt = st.text_input("What do you want in a mobile? (e.g., 'best camera, excellent battery life, and premium display')")

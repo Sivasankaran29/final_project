@@ -121,6 +121,7 @@ def main():
     # Load the data
     df = pd.read_csv('analyzed_df.csv')
 
+    st.image("download (1).png", width=200)
     st.title("Mobile Recommendation System")
     st.write("Enter your mobile preferences below:")
 

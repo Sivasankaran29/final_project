@@ -78,3 +78,26 @@ Ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/yourusername/repository-name.git
    cd repository-name
+
+git clone https://github.com/Sivasankaran29/final_project.git
+cd final_project
+
+pip3 install streamlit
+# If you have a requirements.txt, run this:
+pip3 install -r requirements.txt
+
+sudo apt install python3-venv -y
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install streamlit
+
+git pull origin main
+
+ls
+
+streamlit run final_project.py --server.port 8501 --server.address 0.0.0.0
+
+http://<your-ec2-public-ip>:8501

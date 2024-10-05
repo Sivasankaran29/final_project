@@ -112,14 +112,14 @@ def generate_recommendations(df, user_prompt, top_n=5):
     return response
 
 def load_data():
-    with open('C:/Users/Siva/mobile_recommendation_model.pkl', 'rb') as f:
+    with open('mobile_recommendation_model.pkl', 'rb') as f:
         df = pickle.load(f)
     return df    
 
 # Function to display recommendations in a better format using streamlit
 def main():
     # Load the data
-    df = pd.read_csv('D:/final project/analyzed_df.csv')
+    df = pd.read_csv('analyzed_df.csv')
 
     st.title("Advanced Mobile Recommendation System")
     st.write("Enter your mobile preferences below:")
